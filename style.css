@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #1a1a1a;
+  color: #fafafa;
+  overflow-x: hidden;
+  font-family: monospace;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  border: 15px solid whitesmoke;
+  display: flex;
+}
+
+.color-box-info, .color-box-value,
+.red-color-info, .green-color-info, .blue-color-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.color-box {
+  width: 250px;
+  border: 10px solid tomato;
+}
+
+.color-box-info {
+  background: #fafafa;
+  color: #1a1a1a;
+  padding: 2rem 1.5rem;
+  text-transform: uppercase;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.red-color-info, .green-color-info, .blue-color-info {
+  gap: 3rem;
+}
+
+.red-color-info, .green-color-info, .blue-color-info,
+.color-box-value {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.red-color-info input, .green-color-info input, .blue-color-info input,
+.color-box-value {
+  width: 100%;
+}
+
+.red-color-info .color-name,
+.green-color-info .color-name,
+.blue-color-info .color-name,
+.color-box-value .color-heading {
+  font-size: 1.5rem;
+}
+
+.color-box-value {
+  gap: 3.2rem;
+}
+
+.color-box-value .color-value {
+  border: 1px solid #1a1a1a;
+  padding: .5rem 4.5rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.random-generate, .random-generate button {
+  width: 100%;
+}
+
+.random-generate button {
+  padding: 1rem 0;
+  text-transform: capitalize;
+  background: tomato;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+}
+
+.random-generate button:active {
+  scale: .9;
+}

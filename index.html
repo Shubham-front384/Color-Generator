@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Color Hunt</title>
+</head>
+<body>
+  
+  <main>
+    <section>
+      <div class="color-box">
+      </div>
+      <div class="color-box-info">
+        <div class="red-color-info">
+          <h5 class="color-name">red</h5>
+          <input type="range" id="red-color" min="0" max="255" value="100">
+        </div>
+        <div class="green-color-info">
+          <h5 class="color-name">green</h5>
+          <input type="range" id="green-color" min="0" max="255" value="150">
+        </div>
+        <div class="blue-color-info">
+          <h5 class="color-name">blue</h5>
+          <input type="range" id="blue-color" min="0" max="255" value="200">
+        </div>
+        <div class="color-box-value">
+          <h5 class="color-heading">
+            rgb
+          </h5>
+          <h5 class="color-value">
+            rgb()
+          </h5>
+        </div>
+        <div class="random-generate">
+          <button>generate color</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
